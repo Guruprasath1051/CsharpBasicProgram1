@@ -26,7 +26,7 @@ namespace Csharp_Basic_Program
             Console.WriteLine("Please enter second number");
             int fourth = Convert.ToInt32(Console.ReadLine());
 
-            Calculator calculator2 = new Calculator(first, second);
+            Calculator calculator2 = new Calculator(third, fourth);
             calculator2.Addition();
             calculator2.Substraction();
             Console.ReadLine();
